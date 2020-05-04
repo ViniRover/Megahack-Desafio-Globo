@@ -8,5 +8,20 @@ Como podermos ter a melhor experiência dos usuários com todos os produtos da G
 
 Juntar todos os tópicos em um só aplicativo, porém criando um feed personalizado, assim transformando as notícias em formato de rede social, onde as pessoas passam a maior parte de seu tempo hoje em dia.
 
-### Esse repositório contém apenas o back-end do desafio
+## Rodando a aplicação
+
+Para instalar todas os pacotes necessários:
+
+ ```
+    yarn 
+ ````
+    
+Para rodar a aplicação: 
+
+ ```
+    yarn dev:server
+````
+
+
+Obs: Esse repositório contém apenas o back-end do desafio
                           
