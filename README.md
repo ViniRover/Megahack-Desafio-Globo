@@ -22,6 +22,13 @@ Para rodar a aplicação:
     yarn dev:server
 ````
 
+## Database
+
+Bando de dados usado [Postgres](https://www.postgresql.org/docs/) com [TypeORM](https://typeorm.io/#/) utilzando um container [Docker](https://docs.docker.com/):
+
+ ```
+    docker run --name NAME -e POSTGRES_PASSWORD=PASSWORD -p 5432:PORT -d postgres
+````
 
 Obs: Esse repositório contém apenas o back-end do desafio
                           
