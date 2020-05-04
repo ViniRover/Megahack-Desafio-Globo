@@ -30,6 +30,18 @@ Bando de dados usado [Postgres](https://www.postgresql.org/docs/) com [TypeORM](
     docker run --name NAME -e POSTGRES_PASSWORD=PASSWORD -p 5432:PORT -d postgres
 ````
 
+Para listar os containers ativos: 
+
+ ```
+    docker ps
+````
+
+Caso seu container não ser listado rode:
+
+ ```
+    docker start NAME
+````
+
 Após criar um banco e alterar as configurações no arquivo ormconfig.json rode o comando:
 
  ```
