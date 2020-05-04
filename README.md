@@ -30,5 +30,11 @@ Bando de dados usado [Postgres](https://www.postgresql.org/docs/) com [TypeORM](
     docker run --name NAME -e POSTGRES_PASSWORD=PASSWORD -p 5432:PORT -d postgres
 ````
 
+Após criar um banco e alterar as configurações no arquivo ormconfig.json rode o comando:
+
+ ```
+    yarn typeorm migration:run
+````
+
 Obs: Esse repositório contém apenas o back-end do desafio
                           
